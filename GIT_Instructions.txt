@@ -1,0 +1,8 @@
+-Créer le dépôt local et cloner une première fois les données :
+	- Sur SourceTree, faire "Cloner/Nouveau" puis dans "Créer un nouveau dépôt" indiquer le dossier du projet dans "Destination"
+	- Une fois le dépôt local créé, se rendre dans "paramètres", cliquer sur "ajouter" dans "chemin des dépôts distants" et coller l'adresse du dépôt (https://bitbucket.org/teamroom25/room-25) dans URL.
+	- Mettre à jour le dépôt local.
+-Sur SourceTree : 	
+	*Mettre à jour son dépôt local : "récupérer" puis "recevoir".
+	*Mettre à jour le dépôt git : faire "valider" puis "envoyer".
+-Ne commit que les fichiers ".c", ".h", ainsi que les images et des éventuels fichiers textes. 
