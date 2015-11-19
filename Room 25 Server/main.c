@@ -13,6 +13,7 @@ int main(int argc, char** argv) {
     Joueur joueurs[6];
     init_joueurs(joueurs, 5);
     role_joueurs(joueurs, 5);
+    Mode mode = M_SUSPISCION;
     for(i = 0; i < 5; i++) {
         fprintf(stderr, "%d\n", joueurs[i].type);
     }
@@ -34,7 +35,7 @@ int main(int argc, char** argv) {
             joueurs[1].dir[0] = D_GAUCHE;
             joueurs[1].action[1] = A_REGARDER;
             joueurs[1].dir[1] = D_DROITE;
-            action(joueurs, 2, 0, complexe);
+            action(joueurs, 2, 0, mode, complexe);
         }
         for(i = 0; i < 5; i++) {
         for(j = 0; j < 5; j++) {
